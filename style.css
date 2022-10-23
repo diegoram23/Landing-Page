@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    color:rgb(26, 29, 26);
+    color:rgb(40, 94, 40);
     font-weight: bold;
     font-size: 30px;
     display: flex;
@@ -50,6 +50,7 @@ ul{
 
 .header-left {
     width: 500px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -72,6 +73,7 @@ h2 {
 .content {
     background-color: antiquewhite;
     margin-top: -5px;
+    padding-bottom: 30px;
 }
 
 h3 {
