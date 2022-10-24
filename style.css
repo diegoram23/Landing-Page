@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(165, 164, 164);
+    padding: 0 10px 0 10px;
 }
 
 h1 {
@@ -46,11 +48,13 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:  rgb(226, 222, 222);;
 }
 
 .header-left {
     width: 500px;
     margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 h2 {
@@ -69,6 +73,7 @@ h2 {
     color: white;
     font-size: 14px;
     font-weight: 700;
+    border-radius: 10px;
 }
 .content {
     background-color: antiquewhite;
@@ -90,6 +95,8 @@ h3 {
 .box img {
     width: 200px;
     height: 200px;
+    border-radius: 15px;
+    border: 2px solid rgb(117, 35, 117);
 }
 
 .box {
@@ -124,4 +131,15 @@ p {
     font-size: 26px;
     text-align: right;
     padding: 0;
+}
+
+.sign-up-container {
+    background-color: rgb(226, 222, 222);
+}
+
+.footer {
+    background-color: rgb(165, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
