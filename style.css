@@ -143,3 +143,35 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.sign-up-container {
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.sign-up-texts {
+    background-color: rgb(226, 222, 222);
+    width: 600px;
+    height: 140px;
+    margin: 50px 300px 50px;
+    padding: 1px;
+    border-radius: 15px;
+}
+.sign-up-texts h1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sign-up-texts p {
+    margin-left: 20px;
+}
+.sign-up-bottom{
+    padding: 8px 16px 8px 16px;
+    background-color: rgb(117, 35, 117);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-left: 450px;
+    margin-bottom: 30px;
+}
