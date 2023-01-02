@@ -1,177 +1,70 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 1110px;
-    background-color: rgb(172, 214, 172);
-    font-family: 'Roboto', arial
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(165, 164, 164);
-    padding: 0 10px 0 10px;
-}
-
-h1 {
-    color:rgb(40, 94, 40);
-    font-weight: bold;
-    font-size: 30px;
-    display: flex;
-    flex-shrink: 0;
-}
-.header-links {
-    display: flex;
-    gap: 15px;
-    padding-left: 100;
-}
-
-a {
-    text-decoration: none;
-    color:rgb(117, 35, 117);
-    font-weight: 600;
-    font-size: 20px;
-}
-
-ul{
-    list-style-type: none;
-}
-
-.header-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:  rgb(226, 222, 222);;
-}
-
-.header-left {
-    width: 500px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
-h2 {
-    color:rgb(117, 35, 117);
-    font-size: 26px;
-    padding-right: 40px;
-}
-.info-text {
-    color:rgb(40, 94, 40);
-    font-weight: 500;
-    padding-right: 40px;
-}
-.sign-up-top {
-    padding: 8px 16px 8px 16px;
-    background-color: rgb(117, 35, 117);
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 10px;
-}
-.content {
-    background-color: antiquewhite;
-    margin-top: -5px;
-    padding-bottom: 30px;
-}
-
-h3 {
-    text-align: center;
-    color:rgb(117, 35, 117);
-    font-size: 26px;
-}
-.content-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding:0 20px 0 20px;
-}
-.box img {
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    border: 2px solid rgb(117, 35, 117);
-}
-
-.box {
-    text-align: center;
-    max-width: 200px;
-}
-
-p {
-    color:rgb(40, 94, 40);
-    font-weight: 600;
-}
-
-.quote-container {
-    background-color: rgb(226, 222, 222);
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quote-container p {
-    color:rgb(40, 94, 40);
-    font-weight: 500;
-    font-style: italic;
-    font-size: 18px;
-    width: 500px;
-    padding-top: 50px;
-}
-
-.quote-person p {
-    color:rgb(117, 35, 117);
-    font-size: 26px;
-    text-align: right;
+    margin: 0;
     padding: 0;
-}
-
-.sign-up-container {
-    background-color: rgb(226, 222, 222);
-}
-
-.footer {
-    background-color: rgb(165, 164, 164);
+    font-family:'Inter', sans-serif;
+    background-color: #fafafa;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    color: #090909;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.8em;
+    font-weight: 600;
+}
+
+.left-section {
+    display: flex;
     align-items: center;
 }
-
-.sign-up-container {
-    height: 300px;
-    background-color: antiquewhite;
+.title {
+    margin-left: 0.5em;
+}
+ul {
+    display: flex;
+    text-align: center;
 }
 
-.sign-up-texts {
-    background-color: rgb(226, 222, 222);
-    width: 600px;
-    height: 140px;
-    margin: 50px 300px 50px;
-    padding: 1px;
-    border-radius: 15px;
+li {
+    list-style: none;
+    font-size: 0.8rem;
 }
-.sign-up-texts h1{
-    margin-left: 20px;
-    margin-top: 10px;
+
+ul {
+    gap: 1em;
 }
-.sign-up-texts p {
-    margin-left: 20px;
+
+.hero {
+    border: 1px solid black;
+    background: url('images/article-image-hero.png');
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.5;
+    padding: 0 0.8em;
 }
-.sign-up-bottom{
-    padding: 8px 16px 8px 16px;
-    background-color: rgb(117, 35, 117);
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 10px;
-    flex-shrink: 0;
-    margin-left: 450px;
-    margin-bottom: 30px;
+
+.hero-date {
+    margin-top: 5em;
+    font-size: 0.75em;
+}
+
+.hero-title {
+    line-height: 1.2;
+}
+
+/*articles container */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 1.5em;
+}
+
+.article-img {
+  width: 100%;
 }
